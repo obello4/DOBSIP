@@ -1,0 +1,13 @@
+<?php 
+include
+("http://sip.dobcall.com/api/display_ratecard.php?".
+"key=muvcbZBCO5x0gHj1d3".
+"&page_url=http://sip.dobcall.com/api/dobrates.php".
+"&fullhtmlpage=0".
+"&field_to_display=t1.destination,t1.dialprefix,t1.rateinitial".
+"&column_name=Destination,Prefix,Rate/Min".
+"&field_type=,,money".
+"&ratecardid=2".
+"&css_url=http://sip.dobcall.com/api/css/api_ratecard.css".
+"&currency_select=USD".$_SERVER['QUERY_STRING']);
+?>
